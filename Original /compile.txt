@@ -1,0 +1,18 @@
+pi@raspberrypi:~ $ sudo gcc -o dht22 dht22.c -lwiringPi
+gcc: error: dht22.c: No such file or directory
+pi@raspberrypi:~ $ nano dht22.c
+pi@raspberrypi:~ $ nano dht22.c
+pi@raspberrypi:~ $ sudo gcc -o dht22 dht22.c -lwiringPi
+pi@raspberrypi:~ $ sudo ./dht22
+Usage: dht22 t|h pin
+             c   .. temperature celsius
+             f   .. temperature fahrenheit
+             h   .. humidity
+             pin .. GPIO pin (wiringPi numbering)
+pi@raspberrypi:~ $ sudo ./dht22 c 7
+Reading DHT22 ... mode=c sensorPIN=7
+read_dht_data() Data not good, skip
+read_dht_data() Humidity = 45.8 % Temperature = 23.8 *C (74.8 *F)
+23.8
+main() Humidity = 45.8 % Temperature = 23.8 *C (74.8 *F)
+pi@raspberrypi:~ $ 
