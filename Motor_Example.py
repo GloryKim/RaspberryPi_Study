@@ -15,6 +15,7 @@ try:
         GPIO.output(23, False)
         time.sleep(1)
         GPIO.output(23,True)
+        print("Start")
         time.sleep(1)
         
 except KeyboardInterrupt:

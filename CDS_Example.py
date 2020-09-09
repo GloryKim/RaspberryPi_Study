@@ -8,7 +8,7 @@ GPIO.setmode(GPIO.BOARD)
 # GPIO.BCM .  핀번호가 아니라 Broadcom SOC channel을 사용 GPIOXX의 XX 번호를 사용
 
 # 7번 핀을 사용함
-pin_to_circuit = 7
+pin_to_circuit = 10
 
 def rc_time (pin_to_circuit):
     count = 0
