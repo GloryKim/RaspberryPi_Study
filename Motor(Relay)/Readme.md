@@ -2,13 +2,12 @@
 
 
 ## 컴파일 방법
-1. Motor_Example.py
-- python Motor_Example.py
-2. CDS_Example.py
-- python CDS_Example.py
-3. dht22+while1.c
-- sudo gcc –o dht22+while1 dht22+while1.c –lwiringPi
-- sudo ./dht22+while1
+- python Motor.py
 -------------------------------------
 ## 회로 꽂는방법
-
+### 센서 : 번호
+1. 흰색(+) : 2 (5V)
+2. 회색(-) : 6 (GND)
+3. 노란색(Signal) : 16 (GPIO23)
+4. 초록색(가운데 COM) : 4 (5V)
+5. 보라색(NO) : 14 (GND)
