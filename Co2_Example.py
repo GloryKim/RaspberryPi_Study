@@ -14,18 +14,16 @@ def rc_time (pin_to_circuit):
     count = 0
 
     #Output on the pin for
-    GPIO.setup(pin_to_circuit, GPIO.OUT)   # 7번 핀을 입력으로 설정
-    GPIO.output(pin_to_circuit, GPIO.LOW)  # 7번 핀의 디지털 출력 설정
-    # 셋중에 아무거나 골라서 사용
-    # 1, GPIO.HIGH, True
-    # 0, GPIO.LOW, False
+    GPIO.setup(pin_to_circuit, GPIO.OUT)   # 10번 핀을 입력으로 설정
+    GPIO.output(pin_to_circuit, GPIO.LOW)  # 10번 핀의 디지털 출력 설정
+ 
                                                       
     time.sleep(0.1)  # 0.1 sec sleep
 
-    # 7번 핀을 input으로 변경
+    # 10번 핀을 input으로 변경
     GPIO.setup(pin_to_circuit, GPIO.IN)
 
-    # 7번 핀으로부터 읽은 값이 HIGH가 될 때까지 count 수행
+    # 10번 핀으로부터 읽은 값이 HIGH가 될 때까지 count 수행
     # 그래서 실행해보면 센서 주변이 어두울 수록 카운트 값이 크다. 
     while (GPIO.input(pin_to_circuit) == GPIO.LOW):
         count += 1
