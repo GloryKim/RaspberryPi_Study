@@ -2,7 +2,8 @@
 
 
 ## 컴파일 방법
-- python DHT.py
+- sudo gcc –o dht22+while1 dht22+while1.c –lwiringPi
+- sudo ./dht22+while1
 -------------------------------------
 ## 회로 꽂는방법
 ### 센서 : 번호
