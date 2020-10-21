@@ -1,11 +1,13 @@
 # IoTivity Project
 
+---------------------
+## 사용중인 PIN
+10. CDS
 
-## 컴파일 방법
-1. Motor_Example.py
-- python Motor_Example.py
-2. CDS_Example.py
-- python CDS_Example.py
-3. dht22+while1.c
-- sudo gcc –o dht22+while1 dht22+while1.c –lwiringPi
-- sudo ./dht22+while1
+
+---------------------
+## 개발일지
+
+### 1.0.1
+1. 폴더 정리
+2. CDS 파일 정리

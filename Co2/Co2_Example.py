@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-#!/usr/local/bin/python
-
 import RPi.GPIO as GPIO 
 import time# sleep
 GPIO.setmode(GPIO.BOARD)
