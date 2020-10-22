@@ -32,7 +32,7 @@ def rc_time (pin_to_circuit):
 try:
     # 메인 루프
     while True:
-        print rc_time(pin_to_circuit) # 조도 센서의 값 출력
+        print rc_time(pin_to_circuit) # C02 센서의 값 출력
 except KeyboardInterrupt:
     pass
 finally:
