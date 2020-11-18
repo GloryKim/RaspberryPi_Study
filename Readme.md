@@ -7,6 +7,10 @@
 ---------------------
 ## 개발일지
 
+## 1.0.8
+1. Co2 센서 배치 수정
+2. LED+Relay 예제 생성
+
 ## 1.0.7
 1. DHT "ValueError: Format specifier missing precision" 오류 수정
 
