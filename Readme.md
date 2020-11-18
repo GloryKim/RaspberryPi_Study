@@ -7,6 +7,9 @@
 ---------------------
 ## 개발일지
 
+## 1.0.7
+1. DHT "ValueError: Format specifier missing precision" 오류 수정
+
 ## 1.0.6
 1. BH1750 예제 조도 lux 단위 측정 기능 추가
 
