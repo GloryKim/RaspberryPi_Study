@@ -8,4 +8,5 @@ def print_dht22():
     print 'Fahrenheit={0:0.1f}*F Celsius={1:0.1f}*C Humidity={2:0.1f}%' . format(f, t, h)
     threading.Timer(2.5, print_dht22).start
 
-print_dht22()
+while True :
+    print_dht22()
